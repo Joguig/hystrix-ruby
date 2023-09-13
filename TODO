@@ -1,0 +1,8 @@
+Rolling percentile support for timings
+DSL parity
+Command configuration improvements, especially regarding inheritance and groups.
+execute_block_on_receiver :initialize should not be required in Hystrix commands
+Is our use of dashboard stats consistent with Netflix?
+Benchmarking - how much latency does Hystrix introduce? How well does the DRb server scale?
+DRb server: do we gracefully handle DRb process being maxed out or responding slowly?
+Better reconnection logic to DRb server
